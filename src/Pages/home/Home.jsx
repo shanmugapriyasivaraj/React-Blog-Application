@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "../../Components/Header/Header";
-import Post from "../../Components/posts/Post";
+import Posts from "../../Components/posts/Posts";
 import SideBar from "../../Components/sidebar/SideBar";
 import "./Home.css";
 
@@ -9,7 +9,7 @@ const Home = () => {
     <>
       <Header />
       <div className="home">
-        <Post />
+        <Posts />
         <SideBar />
       </div>
     </>
