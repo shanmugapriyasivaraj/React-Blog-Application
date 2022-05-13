@@ -1,10 +1,12 @@
 import React from "react";
-import TopBar from "./topbar/TopBar";
+import TopBar from "./Components/topbar/TopBar";
+import Home from "./Pages/home/Home";
 
 function App() {
   return (
     <>
       <TopBar />
+      <Home />
     </>
   );
 }
