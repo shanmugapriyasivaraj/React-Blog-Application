@@ -1,5 +1,5 @@
 import React from "react";
-import TopBar from "../../Components/topbar/TopBar";
+
 import "./Write.css";
 
 const Write = () => {

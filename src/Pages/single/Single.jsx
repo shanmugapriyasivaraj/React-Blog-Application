@@ -1,5 +1,5 @@
 import React from "react";
-import Post from "../../Components/post/Post";
+
 import SideBar from "../../Components/sidebar/SideBar";
 import SinglePost from "../../Components/singlePost/SinglePost";
 import "./Single.css";

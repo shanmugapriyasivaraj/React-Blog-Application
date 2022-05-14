@@ -8,7 +8,6 @@ import Single from "./Pages/single/Single";
 import Write from "./Pages/write/Write";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 function App() {
-  const user = false;
   return (
     <BrowserRouter>
       <TopBar />
