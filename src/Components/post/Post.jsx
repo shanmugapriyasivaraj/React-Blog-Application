@@ -1,14 +1,10 @@
 import React from "react";
 import "./Post.css";
 
-const Post = () => {
+const Post = ({ img }) => {
   return (
     <div className="post">
-      <img
-        className="postImg"
-        src="https://images.pexels.com/photos/6685428/pexels-photo-6685428.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
-        alt=""
-      />
+      <img className="postImg" src={img} alt="" />
       <div className="postInfo">
         <div className="postCats">
           <span className="postCat">Music</span>
